@@ -13,7 +13,7 @@ export default function SignOutButton() {
         router.push("/login");
         router.refresh();
       }}
-      className="rounded-lg border border-gray-300 px-3 py-1.5 text-sm font-medium hover:bg-gray-50"
+      className="rounded-lg border border-border px-3 py-1.5 text-sm font-medium hover:bg-subtle"
     >
       Sair
     </button>
